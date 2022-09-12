@@ -16,7 +16,7 @@ export default function Work() {
         <Project
           title="Virtually Unwrapped"
           subtitle="Redesigning the Gifting Experience of the 21st Century"
-          videosrc="/virtuallyUnwrapped.mp4"
+          videosrc="https://www.youtube.com/embed/husuf3GyP3U"
           date="August 2022"
           timespan="Individual project of 15 weeks"
           description="In this era of digitalization, a new phenomenon has surfaced: Digital gifting. As more digital products are consumed and created, gifting digital media becomes more popular. With the rise of streaming services, the growing consumption of digital games and the shift to selling experiences rather than objects, the assortment of digital gifting options is expanding greatly. 
