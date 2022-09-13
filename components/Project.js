@@ -1,3 +1,5 @@
+import Gallery from "./Gallery";
+
 export default function Project({
   title,
   videosrc,
@@ -6,15 +8,12 @@ export default function Project({
   timespan,
   description,
   mainphoto,
+  description2,
 }) {
   return (
     <>
-      <h1 className="projectTitle">{title}</h1>
-      <div
-        style={{
-          width: "60%",
-        }}
-      >
+      <div className="container" style={{ width: "60%" }}>
+        <h1 className="projectTitle">{title}</h1>
         <div
           style={{
             width: "100%",
@@ -26,7 +25,7 @@ export default function Project({
           <iframe
             width="560"
             height="315"
-            src={videosrc + "?autoplay=1&autohide=1&controls=0&rel=0"}
+            src={videosrc + "?autoplay=1&autohide=1&controls=0&rel=0&loop=1"}
             title={title}
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -40,8 +39,8 @@ export default function Project({
             }}
           ></iframe>
         </div>
-      </div>
-      {/* <video
+
+        {/* <video
         src={videosrc}
         width="1920"
         height="1080"
@@ -55,11 +54,14 @@ export default function Project({
           objectFit: "contain",
         }}
       ></video> */}
-      <p className="projectSubtitle">{subtitle}</p>
-      <p className="projectDate">{date}</p>
-      <p className="projectTimespan">{timespan}</p>
-      <p style={{ width: "60%" }}>{description}</p>
-      <img src={mainphoto} style={{ width: "60%" }}></img>
+        <p className="projectSubtitle">{subtitle}</p>
+        <p className="projectDate">{date}</p>
+        <p className="projectTimespan">{timespan}</p>
+        <p>{description}</p>
+        <img style={{ width: "100%" }} src={mainphoto}></img>
+        <p>{description2}</p>
+        <Gallery></Gallery>
+      </div>
     </>
   );
 }

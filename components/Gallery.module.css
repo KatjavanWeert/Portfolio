@@ -1,0 +1,35 @@
+.gallery {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.column {
+  padding: 0;
+  flex-wrap: wrap;
+  flex: 5;
+}
+
+.column img {
+  margin-top: 0.5rem;
+  vertical-align: middle;
+  flex-basis: 30%;
+  max-width: 100%;
+}
+
+.column img:hover .overlay {
+  opacity: 0.7;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: white;
+}
