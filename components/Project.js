@@ -9,6 +9,7 @@ export default function Project({
   description,
   mainphoto,
   description2,
+  images,
 }) {
   return (
     <>
@@ -60,7 +61,7 @@ export default function Project({
         <p>{description}</p>
         <img style={{ width: "100%" }} src={mainphoto}></img>
         <p>{description2}</p>
-        <Gallery></Gallery>
+        <Gallery images={images}></Gallery>
       </div>
     </>
   );
