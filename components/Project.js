@@ -15,10 +15,10 @@ export default function Project({
   return (
     <>
       <div className={styles.projectContainer}>
-        <h1 className={styles.projectTitle}>{title}</h1>
+        <div className={styles.projectTitle}>{title}</div>
         <p className={styles.projectSubtitle}>{subtitle}</p>
-        <p className={styles.projectDate}>{date}</p>
-        <p className={styles.projectTimespan}>{timespan}</p>
+        <div className={styles.projectDate}>{date}</div>
+        <div className={styles.projectTimespan}>{timespan}</div>
         <img
           style={{ maxWidth: "100%", maxHeight: "80vh" }}
           src={mainphoto}
@@ -38,7 +38,7 @@ export default function Project({
             height="315"
             src={
               videosrc +
-              "&amp;autoplay=1&amp;autopause=1&amp;muted=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;dnt=1"
+              "&amp;autoplay=1&amp;loop=1&amp;autopause=1&amp;muted=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;dnt=1"
             }
             // src={videosrc + "?autoplay=1&autohide=1&controls=0&rel=0&loop=1"}
             title={title}
