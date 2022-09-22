@@ -14,7 +14,7 @@ export default function Project({
 }) {
   return (
     <>
-      <div className="container" style={{ width: "60%" }}>
+      <div className={styles.projectContainer}>
         <h1 className={styles.projectTitle}>{title}</h1>
         <p className={styles.projectSubtitle}>{subtitle}</p>
         <p className={styles.projectDate}>{date}</p>

@@ -1,3 +1,11 @@
+.projectContainer {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .projectTitle {
   font-weight: 800;
   font-size: 4rem;
@@ -29,5 +37,9 @@
 
   .projectSubtitle {
     font-size: 1rem;
+  }
+
+  .projectContainer {
+    width: 80%;
   }
 }
