@@ -1,0 +1,33 @@
+.projectTitle {
+  font-weight: 800;
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.projectSubtitle {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.projectDate {
+}
+
+.projectTimespan {
+}
+
+.projectDescription {
+  white-space: pre-wrap;
+}
+
+@media only screen and (max-width: 800px) {
+  .projectTitle {
+    font-size: 2.5rem;
+  }
+
+  .projectSubtitle {
+    font-size: 1rem;
+  }
+}

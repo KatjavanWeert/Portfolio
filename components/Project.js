@@ -1,4 +1,5 @@
 import Gallery from "./Gallery";
+import styles from "./Project.module.css";
 
 export default function Project({
   title,
@@ -14,7 +15,16 @@ export default function Project({
   return (
     <>
       <div className="container" style={{ width: "60%" }}>
-        <h1 className="projectTitle">{title}</h1>
+        <h1 className={styles.projectTitle}>{title}</h1>
+        <p className={styles.projectSubtitle}>{subtitle}</p>
+        <p className={styles.projectDate}>{date}</p>
+        <p className={styles.projectTimespan}>{timespan}</p>
+        <img
+          style={{ maxWidth: "100%", maxHeight: "80vh" }}
+          src={mainphoto}
+        ></img>
+
+        <div className={styles.projectDescription}>{description}</div>
         <div
           style={{
             width: "100%",
@@ -40,8 +50,15 @@ export default function Project({
             }}
           ></iframe>
         </div>
+        {description2}
+        <Gallery images={images}></Gallery>
+      </div>
+    </>
+  );
+}
 
-        {/* <video
+{
+  /* <video
         src={videosrc}
         width="1920"
         height="1080"
@@ -54,15 +71,5 @@ export default function Project({
           height: "auto",
           objectFit: "contain",
         }}
-      ></video> */}
-        <p className="projectSubtitle">{subtitle}</p>
-        <p className="projectDate">{date}</p>
-        <p className="projectTimespan">{timespan}</p>
-        <p>{description}</p>
-        <img style={{ width: "100%" }} src={mainphoto}></img>
-        <p>{description2}</p>
-        <Gallery images={images}></Gallery>
-      </div>
-    </>
-  );
+      ></video> */
 }

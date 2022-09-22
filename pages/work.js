@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Footer from "@components/Footer";
-import ProjectVU from "@components/projects/ProjectVU";
+import ProjectCarousel from "@components/ProjectCarousel";
 
 export default function Work() {
   return (
@@ -11,8 +11,7 @@ export default function Work() {
       </Head>
 
       <main>
-        <h1>Work</h1>
-        <ProjectVU></ProjectVU>
+        <ProjectCarousel />
       </main>
 
       <Footer />

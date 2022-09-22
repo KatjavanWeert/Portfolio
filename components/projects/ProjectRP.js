@@ -1,10 +1,10 @@
 import Project from "@components/Project";
-export default function ProjectVU() {
+export default function ProjectRP() {
   return (
     <Project
-      title="Virtually Unwrapped"
+      title="Project RedPill"
       subtitle="Redesigning the Gifting Experience of the 21st Century"
-      mainphoto="/virtuallyunwrapped/virtuallyUnwrapped.jpg"
+      videosrc="https://www.youtube.com/embed/husuf3GyP3U"
       date="August 2022"
       timespan="Individual project of 15 weeks"
       description={
@@ -40,7 +40,7 @@ export default function ProjectVU() {
           </p>
         </div>
       }
-      videosrc="https://www.youtube.com/embed/husuf3GyP3U"
+      mainphoto="/virtuallyunwrapped/virtuallyUnwrapped.jpg"
       description2={
         <>
           <p>And here is some additional info.</p>
