@@ -3,47 +3,54 @@ export default function ProjectRP() {
   return (
     <Project
       title="Project RedPill"
-      subtitle="Redesigning the Gifting Experience of the 21st Century"
-      videosrc="https://www.youtube.com/embed/husuf3GyP3U"
-      date="August 2022"
+      subtitle="Simulation or Reality?"
+      mainphoto="/virtuallyunwrapped/virtuallyUnwrapped.jpg"
+      videosrc="https://player.vimeo.com/video/401268352?h=cf01ba0d86"
+      date="February 2021"
       timespan="Individual project of 15 weeks"
       description={
-        <div>
+        <>
           <p>
-            In this era of digitalization, a new phenomenon has surfaced:
-            Digital gifting. As more digital products are consumed and created,
-            gifting digital media becomes more popular. With the rise of
-            streaming services, the growing consumption of digital games and the
-            shift to selling experiences rather than objects, the assortment of
-            digital gifting options is expanding greatly.
+            In this exploratory study a thought-provoking projected augmented
+            reality game was created to examine the relation between the
+            'virtual space' and 'reality space'. Through interaction with a
+            tangible controller, the benefits and obstacles that tangible
+            interaction has on the presence that the players experience are
+            analyzed.
           </p>
           <p>
-            Currently, there is no method of giving digital gifts that fits
-            within our cultural rituals of gift-giving. A clear need arises for
-            smart gift wrappings that facilitate the shift from material gifts
-            to digital gifts, without adding unnecessary objects to everyone's
-            life. As gifting is a crucial element in sustaining interpersonal
-            relationships, it is important that the effort and intended message
-            from the giver are noticed by the receiver. My mission is therefore
-            to empower consumers to strengthen their connection to peers through
-            gifting, by designing a novel 21st century gifting process that
-            allows for digital gifting in a sustainable manner.
+            The narrative of the game revolves around the thought experiment
+            that argues that everyone lives in a simulation without knowing it.
+            During the game, the players are hacking into this simulation
+            through physical interaction. In the experiment the participant
+            needed to play the game two times: once with active interaction, and
+            once in a passive way. Afterwards they did an elaboration exercise
+            and answered interview questions.
           </p>
           <p>
-            Virtually Unwrapped is a circular gift wrapping that connects the
-            digital gift to a physical wrapper. The physical QR is a gateway to
-            a webinterface, that can be personalized with photos, GIFs, songs
-            and other media. After the gift exchange, the wrapper can simply be
-            reprogrammed and passed on to the next receiver. The past journey of
-            a wrapper adds to its value, while at the same time its circularity
-            minimizes waste.
+            The main results of the study are three theories that attempt to
+            explain the relations between the reality and real spaces and
+            hypotheses on which elements can make players feel more present in
+            the context of projected AR.
           </p>
-        </div>
+        </>
       }
-      mainphoto="/virtuallyunwrapped/virtuallyUnwrapped.jpg"
       description2={
         <>
-          <p>And here is some additional info.</p>
+          <p>
+            In project Redpill I combined my professional skills in qualitative
+            academic research and aesthetical vision to create a conceptual
+            model of people's perception of reality in a blended reality
+            setting. During this project I developed the main theme of my
+            vision: merging the physical and virtual realities. It has therefore
+            had a strong impact on all projects that followed.
+          </p>
+          <p>
+            A physical prototype was created in combination with a projected
+            virtual animation to effectively spark the imagination of the
+            research participants, attempting to make them feel and engage in
+            the blended reality.
+          </p>
         </>
       }
       images={[
