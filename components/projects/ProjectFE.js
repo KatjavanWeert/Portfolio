@@ -4,8 +4,8 @@ export default function ProjectFE() {
     <Project
       title="Virtual Festival Experiences"
       subtitle="An analysis investigating the business potential of creative online festival experience alternatives"
-      mainphoto="/virtuallyunwrapped/virtuallyUnwrapped.jpg"
-      videosrc="https://player.vimeo.com/video/401268352?h=cf01ba0d86"
+      mainphoto="/virtualfestivalexperiences/virtualfestivalexperiences.jpg"
+      videosrc="https://player.vimeo.com/video/752888907?h=5794c5f161"
       date="Finished in February 2022"
       timespan="Individual project of 15 weeks"
       description={
@@ -42,12 +42,12 @@ export default function ProjectFE() {
         </>
       }
       images={[
-        "/virtuallyunwrapped/vu1.png",
-        "/virtuallyunwrapped/vu4.png",
-        "/virtuallyunwrapped/vu2.png",
-        "/virtuallyunwrapped/vu6.png",
-        "/virtuallyunwrapped/vu3.png",
-        "/virtuallyunwrapped/vu5.png",
+        "/virtualfestivalexperiences/fe1.jpg",
+        "/virtualfestivalexperiences/fe4.png",
+        "/virtualfestivalexperiences/fe2.jpg",
+        "/virtualfestivalexperiences/fe5.png",
+        "/virtualfestivalexperiences/fe3.jpg",
+        "/virtualfestivalexperiences/fe6.png",
       ]}
     />
   );

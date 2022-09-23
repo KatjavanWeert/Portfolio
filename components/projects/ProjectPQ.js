@@ -4,9 +4,9 @@ export default function ProjectPQ() {
     <Project
       title="Pubquiz@Home"
       subtitle="The experience of a local pubquiz on your own couch"
-      mainphoto="/virtuallyunwrapped/virtuallyUnwrapped.jpg"
-      videosrc="https://player.vimeo.com/video/401268352?h=cf01ba0d86"
-      date="August 2020"
+      mainphoto="/pubquizathome/pubquizathome.png"
+      videosrc="https://player.vimeo.com/video/752888907?h=5794c5f161"
+      date="Finished in August 2020"
       timespan="Individual project of 15 weeks"
       description={
         <>
@@ -46,12 +46,12 @@ export default function ProjectPQ() {
         </>
       }
       images={[
-        "/virtuallyunwrapped/vu1.png",
-        "/virtuallyunwrapped/vu4.png",
-        "/virtuallyunwrapped/vu2.png",
-        "/virtuallyunwrapped/vu6.png",
-        "/virtuallyunwrapped/vu3.png",
-        "/virtuallyunwrapped/vu5.png",
+        "/pubquizathome/pq4.jpeg",
+        "/pubquizathome/pq1.jpeg",
+        "/pubquizathome/pq5.jpeg",
+        "/pubquizathome/pq2.jpeg",
+        "/pubquizathome/pq3.jpeg",
+        "",
       ]}
     />
   );

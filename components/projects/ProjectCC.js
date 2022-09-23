@@ -4,10 +4,11 @@ export default function ProjectCC() {
     <Project
       title="Collecting Compassion"
       subtitle="Draw a Heart to support Peers affected by War"
-      mainphoto="/virtuallyunwrapped/virtuallyUnwrapped.jpg"
-      videosrc="https://player.vimeo.com/video/401268352?h=cf01ba0d86"
+      mainphoto="/collectingcompassion/collectingcompassion.jpg"
+      videosrc="https://www.youtube.com/embed/jQBRCN-4jv0?start=51"
+      videomediumIsVimeo={false}
       date="Finished in April 2022"
-      timespan="Three-people project of 2 weeks"
+      timespan="Three-person project of 2 weeks"
       description={
         <>
           <p>
@@ -61,17 +62,14 @@ export default function ProjectCC() {
             The elements of the design I created myself were the brush design,
             graphic design of all interfaces and window stickers, the animated
             drawing overlay and the laser cut polycarbonate frame for the tablet
-            (which unfortunately was not hufterproof).{" "}
+            (which unfortunately was not hufterproof).
           </p>
         </>
       }
       images={[
-        "/virtuallyunwrapped/vu1.png",
-        "/virtuallyunwrapped/vu4.png",
-        "/virtuallyunwrapped/vu2.png",
-        "/virtuallyunwrapped/vu6.png",
-        "/virtuallyunwrapped/vu3.png",
-        "/virtuallyunwrapped/vu5.png",
+        "/collectingcompassion/cc1.jpg",
+        "/collectingcompassion/cc2.jpg",
+        "/collectingcompassion/cc3.jpg",
       ]}
     />
   );

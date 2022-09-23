@@ -4,8 +4,8 @@ export default function ProjectUD() {
     <Project
       title="(Un_Defined)"
       subtitle="Defining experience through affective interaction"
-      mainphoto="/virtuallyunwrapped/virtuallyUnwrapped.jpg"
-      videosrc="https://player.vimeo.com/video/401268352?h=cf01ba0d86"
+      mainphoto="/undefined/undefined.jpg"
+      videosrc="https://player.vimeo.com/video/752876541?h=c52f29a22f"
       date="Finished on February 2021"
       timespan="Two-person project of 15 weeks"
       description={
@@ -61,12 +61,12 @@ export default function ProjectUD() {
         </>
       }
       images={[
-        "/virtuallyunwrapped/vu1.png",
-        "/virtuallyunwrapped/vu4.png",
-        "/virtuallyunwrapped/vu2.png",
-        "/virtuallyunwrapped/vu6.png",
-        "/virtuallyunwrapped/vu3.png",
-        "/virtuallyunwrapped/vu5.png",
+        "/undefined/ud1.jpg",
+        "/undefined/ud5.jpg",
+        "/undefined/ud2.jpg",
+        "/undefined/ud4.jpg",
+        "/undefined/ud3.png",
+        "/undefined/ud6.jpeg",
       ]}
     />
   );

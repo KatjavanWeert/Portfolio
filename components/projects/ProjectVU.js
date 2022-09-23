@@ -6,7 +6,7 @@ export default function ProjectVU() {
       subtitle="Redesigning the Gifting Experience of the 21st Century"
       mainphoto="/virtuallyunwrapped/virtuallyUnwrapped.jpg"
       videosrc="https://player.vimeo.com/video/752524696?h=38df1cebe5"
-      date="August 2022"
+      date="Finished in August 2022"
       timespan="Individual project of 15 weeks"
       description={
         <>

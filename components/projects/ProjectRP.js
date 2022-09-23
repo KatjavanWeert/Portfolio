@@ -4,9 +4,9 @@ export default function ProjectRP() {
     <Project
       title="Project RedPill"
       subtitle="Simulation or Reality?"
-      mainphoto="/virtuallyunwrapped/virtuallyUnwrapped.jpg"
-      videosrc="https://player.vimeo.com/video/401268352?h=cf01ba0d86"
-      date="February 2021"
+      mainphoto="/projectredpill/projectredpill.jpg"
+      videosrc="https://player.vimeo.com/video/752870310?h=fbd0954b12"
+      date="Finished in February 2021"
       timespan="Individual project of 15 weeks"
       description={
         <>
@@ -54,12 +54,9 @@ export default function ProjectRP() {
         </>
       }
       images={[
-        "/virtuallyunwrapped/vu1.png",
-        "/virtuallyunwrapped/vu4.png",
-        "/virtuallyunwrapped/vu2.png",
-        "/virtuallyunwrapped/vu6.png",
-        "/virtuallyunwrapped/vu3.png",
-        "/virtuallyunwrapped/vu5.png",
+        "/projectredpill/rp2.jpg",
+        "/projectredpill/rp1.jpg",
+        "/projectredpill/rp3.jpg",
       ]}
     />
   );
