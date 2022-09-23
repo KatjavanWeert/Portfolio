@@ -35,4 +35,8 @@
   .arrow {
     font-size: 2rem;
   }
+
+  .carouselNavigator {
+    padding: 0 2%;
+  }
 }

@@ -1,4 +1,5 @@
 import Project from "@components/Project";
+import Quote from "@components/Quote";
 export default function ProjectPQ() {
   return (
     <Project
@@ -17,6 +18,10 @@ export default function ProjectPQ() {
             simultaneously bringing the participants in contact again with their
             outer social circle.
           </p>
+          <Quote>
+            "This is by far the best digital connection during a quiz in recent
+            time"
+          </Quote>
           <p>
             By entering the received password into the website
             www.pubquizathome.azurewebsites.net (try 'jacks') the participants
@@ -25,11 +30,6 @@ export default function ProjectPQ() {
             an authentic Tilburgse Kermis camel race! The reactions to the quiz
             were unanimously positive.
           </p>
-          <p>
-            "This is by far the best digital connection during a quiz in recent
-            time"
-          </p>
-          <p>"We were yelling to move our camel forward" </p>
         </>
       }
       description2={

@@ -4,6 +4,13 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+
+  /* Vet om te doen: een doorkijkgat waar je de projecten door kan zien! */
+  padding: 5%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .projectTitle {
@@ -27,12 +34,36 @@
 
 .projectTimespan {
   margin-top: 0.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.mainPhoto {
+  max-width: 100%;
+  max-height: 80vh;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+
+.iframeContainer {
+  width: 100%;
+  height: 0;
+  position: relative;
+  padding-top: 56.25%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .projectDescription {
-  font-size: 1rem;
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.6;
 }
+
+/* .projectDescription p {
+  margin-top: 2rem;
+} */
 
 @media only screen and (max-width: 800px) {
   .projectTitle {
@@ -45,5 +76,8 @@
 
   .projectContainer {
     width: 80%;
+  }
+  .projectDescription {
+    font-size: 1rem;
   }
 }

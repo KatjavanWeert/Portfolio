@@ -20,20 +20,10 @@ export default function Project({
         <p className={styles.projectSubtitle}>{subtitle}</p>
         <div className={styles.projectDate}>{date}</div>
         <div className={styles.projectTimespan}>{timespan}</div>
-        <img
-          style={{ maxWidth: "100%", maxHeight: "80vh" }}
-          src={mainphoto}
-        ></img>
+        <img className={styles.mainPhoto} src={mainphoto}></img>
 
         <div className={styles.projectDescription}>{description}</div>
-        <div
-          style={{
-            width: "100%",
-            height: "0",
-            position: "relative",
-            paddingTop: "56.25%",
-          }}
-        >
+        <div className={styles.iframeContainer}>
           <iframe
             width="560"
             height="315"
@@ -56,7 +46,7 @@ export default function Project({
             }}
           ></iframe>
         </div>
-        {description2}
+        <div className={styles.projectDescription}>{description2}</div>
         <Gallery images={images}></Gallery>
       </div>
     </>

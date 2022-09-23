@@ -1,0 +1,29 @@
+.quoteContainer {
+  font-size: 1.7rem;
+  font-style: italic;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.quoteText {
+  text-align: center;
+  width: 80%;
+}
+.quotationMarks {
+  width: 5%;
+  position: absolute;
+  font-size: 4rem;
+  line-height: 1rem;
+  color: whitesmoke;
+}
+
+@media only screen and (max-width: 800px) {
+  .quoteContainer {
+    font-size: 1.2rem;
+  }
+}

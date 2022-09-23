@@ -1,4 +1,5 @@
 import Project from "@components/Project";
+import Quote from "@components/Quote";
 export default function ProjectVU() {
   return (
     <Project
@@ -18,6 +19,10 @@ export default function ProjectVU() {
             shift to selling experiences rather than objects, the assortment of
             digital gifting options is expanding greatly.
           </p>
+          <Quote>
+            A clear need arises for smart gift wrappings that facilitate the
+            shift from material gifts to digital gifts
+          </Quote>
           <p>
             Currently, there is no method of giving digital gifts that fits
             within our cultural rituals of gift-giving. A clear need arises for

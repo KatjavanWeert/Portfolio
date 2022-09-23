@@ -24,7 +24,9 @@ export default function Home() {
         <h1>Welcome to my Portfolio</h1>
         <h3>Check out my projects!</h3>
         <Link href="/work">
-          <button>Explore</button>
+          <button>
+            <span>[</span>Explore<span>]</span>
+          </button>
         </Link>
       </div>
     </div>
