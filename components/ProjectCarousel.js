@@ -43,7 +43,7 @@ export default function ProjectCarousel() {
           &#9654;
         </span>
       </div>
-      <div className={"container"}>{projects[currentProject]}</div>
+      <div className={styles.carouselBody}>{projects[currentProject]}</div>
     </>
   );
 }

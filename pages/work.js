@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Footer from "@components/Footer";
 import ProjectCarousel from "@components/ProjectCarousel";
+import NavigationBar from "@components/NavigationBar";
 
 export default function Work() {
   return (
@@ -9,7 +10,7 @@ export default function Work() {
         <title>Katja's Portfolio - Work</title>
         <link rel="icon" href="/fish.svg" />
       </Head>
-
+      <NavigationBar></NavigationBar>
       <main>
         <ProjectCarousel />
       </main>

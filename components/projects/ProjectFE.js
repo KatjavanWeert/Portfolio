@@ -38,7 +38,7 @@ export default function ProjectFE() {
       }
       description2={
         <>
-          <p>Additional info.</p>
+          <p></p>
         </>
       }
       images={[
