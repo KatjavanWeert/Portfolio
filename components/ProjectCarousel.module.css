@@ -16,7 +16,7 @@
 }
 
 .arrow {
-  font-size: 4rem;
+  width: 3rem;
   color: rgb(206, 206, 206);
 
   /* avoid select */
@@ -32,16 +32,15 @@
 .arrow:hover,
 .arrow:focus {
   color: rgb(133, 133, 133);
-  text-decoration: none;
   cursor: pointer;
 }
 
 @media only screen and (max-width: 800px) {
   .arrow {
-    font-size: 2rem;
+    width: 1rem;
   }
 
   .carouselNavigator {
-    padding: 0 2%;
+    padding: 0 1%;
   }
 }
