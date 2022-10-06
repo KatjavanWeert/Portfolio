@@ -5,7 +5,7 @@ export default function ProjectFE() {
       title="Virtual Festival Experiences"
       subtitle="An analysis investigating the business potential of creative online festival experience alternatives"
       mainphoto="/virtualfestivalexperiences/virtualfestivalexperiences.jpg"
-      videosrc="https://player.vimeo.com/video/752888907?h=5794c5f161"
+      videosrc="https://player.vimeo.com/video/757623710?h=5157897614"
       date="Finished in February 2022"
       timespan="Individual project of 15 weeks"
       description={
