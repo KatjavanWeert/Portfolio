@@ -2,74 +2,67 @@ import Project from "@components/Project";
 export default function ProjectBR() {
   return (
     <Project
-      title="Ballroom"
+      title="The Ballroom"
       subtitle="Dancing with Light"
-      mainphoto="/collectingcompassion/collectingcompassion.jpg"
-      videosrc="https://www.youtube.com/embed/jQBRCN-4jv0?start=51"
+      mainphoto="/ballroom/ballroom.jpeg"
+      videosrc="https://www.youtube.com/embed/ED3vfTUI9Cc?start=05"
       videomediumIsVimeo={false}
-      date="Finished in April 2022"
-      timespan="Three-person project of 2 weeks"
+      date="Finished in November 2021"
+      timespan="Team project (15 people) of 1 year"
       description={
         <>
           <p>
-            Against all good hope, war is part of our daily life. The tensions
-            of war infiltrate the TU/e community and especially those with
-            family, friends or colleagues in a war situation are strongly
-            affected by this. We feel a shared pressure and burden around us,
-            something that we carry with us on campus every day and that burdens
-            us all emotionally. No one is alone in this situation - and everyone
-            is involved.
+            The social cohesion between individuals within public spaces has
+            decreased significantly due to the COVID-19 pandemic. In
+            collaboration with Philip Ross, Team IGNITE, a student team of
+            InnovationSpace at the TU/e, created "The Ballroom". With this
+            installation we hope to restore the connections between the
+            individual visitors of GLOW2021.
           </p>
           <p>
-            Together we could spread this more. We need a way to show our
-            involvement to people in war zones, and to each other. With
-            openness, compassion and solidarity we can create a sense of hoop.
-            As a TU/e community, we can collaborate to create this sense of
-            hope.
+            In “The Ballroom” it was possible to dance with each other as well
+            with one of the 12 sparkling dance partners. These dance partners,
+            in the form of beams of light, were gracefully looking for a dance
+            partner who wanted to take a dance with them on the music performed
+            and recorded by ESMG Quadrivium.
           </p>
           <p>
-            The visitors enter through the main entrance of the Matrix campus
-            building. A special place has been created at the top of the yellow
-            stairs. Here we collected all the compassion of the TU/e community.
-            This is done in the form of an interactive light art object. The
-            visitors could draw a compassionate heart here that becomes part of
-            the light artwork, which everyone is working on together. When
-            enough staff, students and guests share their sympathy here by
-            drawing a digital heart, this space is filled with authentic
-            personal hearts of light. During the eight weeks that the
-            installation was up, the space is filled completely.
+            The visitors were detected using infrared sensors from the Crowdflow
+            Research Group of the TU/e. The result is a modern ballroom
+            festively filled with color, music and dance. See here the
+            aftermovie of GLOW2021 and enjoy “The Ballroom” once again!
           </p>
           <p>
-            This project has been shown during the Bonnefanten First Friday at
-            the Bonnefantenmuseum in Maastricht. During this evening, almost 100
-            museum visitors drew a heart at the installation.
+            This installation won the <b>Crowe Talent Award 2021</b> at GLOW,
+            which is decided by receiving the most votes of the GLOW audience.
           </p>
         </>
       }
       description2={
         <>
           <p>
-            In this voluntary project for the Innovation Space I collaborated in
-            a multidisciplinary team of one software engineer and one conceptual
-            designer/project manager. My role included the full responsibility
-            of the UX design and interaction design. Using clear representations
-            of the intended aesthetics I had to communicate the user journey to
-            the software engineer. To the project manager I had to make clear
-            which materials we needed at what time, and which design elements
-            would need approval from the innovation space.
+            In this project I was mostly involved in the conceptual stage of the
+            design process. I managed the structure of the ideation process and
+            prepared brainstorm sessions for large groups. I also gave design
+            workshops to the engineers in the team, so that they could also
+            participate in the early stages of ideation.
           </p>
           <p>
-            The elements of the design I created myself were the brush design,
-            graphic design of all interfaces and window stickers, the animated
-            drawing overlay and the laser cut polycarbonate frame for the tablet
-            (which unfortunately was not hufterproof).
+            In the realization process I was involved in exploring the details
+            of the user interaction with the behaviour of the light beams in
+            color, motion and intensity. I was also involved in exploring the
+            aesthetics of the atmosphere that is created through the interaction
+            between music and light properties.
           </p>
         </>
       }
       images={[
-        "/collectingcompassion/cc1.jpg",
-        "/collectingcompassion/cc2.jpg",
-        "/collectingcompassion/cc3.jpg",
+        "/ballroom/br1.jpg",
+        "/ballroom/br4.jpg",
+        "/ballroom/br3.jpg",
+        "/ballroom/br5.jpg",
+        "/ballroom/br2.jpg",
+        "/ballroom/br6.jpg",
       ]}
     />
   );

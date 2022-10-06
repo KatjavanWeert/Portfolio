@@ -4,6 +4,7 @@ import ProjectCC from "./projects/ProjectCC";
 import ProjectUD from "./projects/ProjectUD";
 import ProjectPQ from "./projects/ProjectPQ";
 import ProjectFE from "./projects/ProjectFE";
+import ProjectBR from "./projects/ProjectBR";
 import React, { useEffect, useState } from "react";
 import styles from "./ProjectCarousel.module.css";
 
@@ -11,6 +12,7 @@ export default function ProjectCarousel() {
   const projects = [
     <ProjectVU />,
     <ProjectCC />,
+    <ProjectBR />,
     <ProjectRP />,
     <ProjectUD />,
     <ProjectPQ />,
