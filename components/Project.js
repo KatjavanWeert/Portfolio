@@ -1,5 +1,6 @@
 import Gallery from "./Gallery";
 import styles from "./Project.module.css";
+import { AnimatePresence, motion } from "framer-motion";
 
 export default function Project({
   title,
@@ -16,38 +17,47 @@ export default function Project({
   return (
     <>
       <div className={styles.projectContainer}>
-        <div className={styles.projectTitle}>{title}</div>
-        <p className={styles.projectSubtitle}>{subtitle}</p>
-        <div className={styles.projectDate}>{date}</div>
-        <div className={styles.projectTimespan}>{timespan}</div>
-        <img className={styles.mainPhoto} src={mainphoto}></img>
+        <AnimatePresence>
+          <motion.div
+            initial={{ x: 300, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            exit={{ x: -300, opacity: 0 }}
+          >
+            <div className={styles.projectTitle}>{title}</div>
+            <p className={styles.projectSubtitle}>{subtitle}</p>
+            <div className={styles.projectDate}>{date}</div>
+            <div className={styles.projectTimespan}>{timespan}</div>
+            <img className={styles.mainPhoto} src={mainphoto}></img>
 
-        <div className={styles.projectDescription}>{description}</div>
-        <div className={styles.iframeContainer}>
-          <iframe
-            width="560"
-            height="315"
-            src={
-              videomediumIsVimeo
-                ? videosrc +
-                  "&amp;autoplay=1&amp;loop=1&amp;autopause=1&amp;muted=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;dnt=1"
-                : videosrc + "&autoplay=1&autohide=1&controls=0&rel=0&loop=1"
-            }
-            title={title}
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            style={{
-              position: "absolute",
-              top: "0",
-              left: "0",
-              width: "100%",
-              height: "100%",
-            }}
-          ></iframe>
-        </div>
-        <div className={styles.projectDescription}>{description2}</div>
-        <Gallery images={images}></Gallery>
+            <div className={styles.projectDescription}>{description}</div>
+            <div className={styles.iframeContainer}>
+              <iframe
+                width="560"
+                height="315"
+                src={
+                  videomediumIsVimeo
+                    ? videosrc +
+                      "&amp;autoplay=1&amp;loop=1&amp;autopause=1&amp;muted=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;dnt=1"
+                    : videosrc +
+                      "&autoplay=1&autohide=1&controls=0&rel=0&loop=1"
+                }
+                title={title}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                style={{
+                  position: "absolute",
+                  top: "0",
+                  left: "0",
+                  width: "100%",
+                  height: "100%",
+                }}
+              ></iframe>
+            </div>
+            <div className={styles.projectDescription}>{description2}</div>
+            <Gallery images={images}></Gallery>
+          </motion.div>
+        </AnimatePresence>
       </div>
     </>
   );
