@@ -21,12 +21,18 @@ export default function Home() {
         ></iframe>
       </div>
       <div className="overlay">
-        <img src="/Handtekening-wit.png" style={{ maxWidth: "15em" }}></img>
-        <h1>Welcome to my Portfolio</h1>
-        <h3>Check out my projects!</h3>
+        <img
+          src="/Handtekening-wit.png"
+          style={{
+            maxWidth: "50vw",
+            maxHeight: "55vh",
+            paddingTop: "5vh",
+            paddingBottom: "14vh",
+          }}
+        ></img>
         <Link href="/work">
           <button className="explore-button">
-            <span>[</span>Explore<span>]</span>
+            <span>[</span>Explore my Portfolio<span>]</span>
           </button>
         </Link>
       </div>

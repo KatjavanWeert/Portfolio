@@ -20,25 +20,21 @@ export default function ProjectCarousel() {
   ];
   const [currentProject, setCurrentProject] = useState(0);
 
-  function nextProject() {
-    if (currentProject < projects.length - 1) {
-      setCurrentProject(currentProject + 1);
-    } else {
-      setCurrentProject(0);
-    }
-  }
-  function previousProject() {
-    if (currentProject > 0) {
-      setCurrentProject(currentProject - 1);
-    } else {
-      setCurrentProject(projects.length - 1);
-    }
+  function updateProject(increment) {
+    setCurrentProject((previous) => {
+      const next = previous + increment;
+      if (next > projects.length - 1) {
+        return 0;
+      }
+      if (next < 0) return projects.length - 1;
+      return previous + increment;
+    });
   }
 
   return (
     <>
       <div className={styles.carouselNavigator}>
-        <div className={styles.arrow} onClick={previousProject}>
+        <div className={styles.arrow} onClick={() => updateProject(-1)}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -47,7 +43,7 @@ export default function ProjectCarousel() {
             <path d="M9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l128-128c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 256c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-128-128z" />
           </svg>
         </div>
-        <div className={styles.arrow} onClick={nextProject}>
+        <div className={styles.arrow} onClick={() => updateProject(1)}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"

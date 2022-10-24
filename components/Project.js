@@ -39,8 +39,7 @@ export default function Project({
                     videomediumIsVimeo
                       ? videosrc +
                         "&amp;autoplay=1&amp;loop=1&amp;autopause=1&amp;muted=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;dnt=1"
-                      : videosrc +
-                        "&autoplay=1&autohide=1&controls=0&rel=0&loop=1"
+                      : videosrc + "&autohide=1&controls=0&rel=0&loop=1"
                   }
                   title={title}
                   frameBorder="0"
