@@ -30,11 +30,7 @@ export default function NavigationBar() {
               <span>[</span>Work<span>]</span>
             </button>
           </Link>
-        </div>
-        <div className={styles.column}>
-          <img src="/Handtekening.png" style={{ height: "4rem" }}></img>
-        </div>
-        <div className={styles.column}>
+
           <Link href="/aboutme">
             <button
               className={
@@ -57,6 +53,9 @@ export default function NavigationBar() {
               <span>[</span>Contact<span>]</span>
             </button>
           </Link>
+        </div>
+        <div className={styles.column}>
+          <img src="/Handtekening.png" style={{ height: "4rem" }}></img>
         </div>
       </div>
     </>
