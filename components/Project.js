@@ -31,10 +31,10 @@ export default function Project({
                 <div className={styles.projectTitle}>{title}</div>
                 <p className={styles.projectSubtitle}>{subtitle}</p>
               </div>
-              <div>
-                <div className={styles.projectDate}>{date}</div>
-                <div className={styles.projectTimespan}>{timespan}</div>
-              </div>
+            </div>
+            <div className={styles.projectDetails}>
+              <div>{date}</div>
+              <div>{timespan}</div>
             </div>
             <div className={styles.projectContainer}>
               <div className="container">
