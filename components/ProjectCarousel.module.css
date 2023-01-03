@@ -5,6 +5,7 @@
   padding: 0% 5%;
   position: fixed;
   top: 80%;
+  z-index: 1;
 }
 
 .carouselBody {
@@ -16,7 +17,6 @@
 }
 
 .arrow {
-  width: 3rem;
   color: rgb(206, 206, 206);
 
   /* avoid select */
@@ -27,6 +27,10 @@
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none; /* Non-prefixed version, currently
                                 supported by Chrome, Edge, Opera and Firefox */
+}
+
+.arrow img {
+  width: 4rem;
 }
 
 .arrow:hover,

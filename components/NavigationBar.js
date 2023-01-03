@@ -16,7 +16,7 @@ export default function NavigationBar() {
                 router.pathname == "/" ? styles.activeButton : styles.pageButton
               }
             >
-              <span>[</span>Home<span>]</span>
+              Home
             </button>
           </Link>
           <Link href="/work">
@@ -27,7 +27,7 @@ export default function NavigationBar() {
                   : styles.pageButton
               }
             >
-              <span>[</span>Work<span>]</span>
+              Work
             </button>
           </Link>
 
@@ -39,7 +39,7 @@ export default function NavigationBar() {
                   : styles.pageButton
               }
             >
-              <span>[</span>About me<span>]</span>
+              About
             </button>
           </Link>
           <Link href="/contact">
@@ -50,7 +50,7 @@ export default function NavigationBar() {
                   : styles.pageButton
               }
             >
-              <span>[</span>Contact<span>]</span>
+              Contact
             </button>
           </Link>
         </div>

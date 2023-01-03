@@ -1,29 +1,56 @@
 .barContainer {
+  position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 0 2rem;
   width: 100vw;
-  height: 3.5rem;
+  height: 4rem;
   border: 2px;
   top: 0;
-  background-color: transparent;
+  background-color: white;
   z-index: 2;
+}
+
+.barContainer button {
+  border-radius: 0;
+  margin: 0.6rem 2rem;
+  text-align: center;
+  padding: 0 0.2rem;
 }
 
 .pageButton {
   color: black;
   background-color: transparent;
   border: none;
-  font-weight: 800;
+  font-weight: 100;
+}
+
+.pageButton:hover {
+  color: lightgray;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
 }
 
 .activeButton {
+  --angle: 0deg;
   color: black;
   background-color: transparent;
-  border: none;
+  border-bottom: 4px solid;
+  border-image: linear-gradient(var(--angle), #db4ea3, #4482de) 1 10%;
   font-weight: 100;
   cursor: auto;
+  animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
 }
 
 .activeButton:hover span {

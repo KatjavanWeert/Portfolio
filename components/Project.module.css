@@ -97,11 +97,13 @@
 @media only screen and (max-width: 900px) {
   .projectTitle {
     margin-top: 2rem;
+    padding: 0 1rem;
     font-size: 2rem;
   }
 
   .projectSubtitle {
     font-size: 1rem;
+    padding: 0 1rem;
   }
 
   .projectDescription {

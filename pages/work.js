@@ -2,6 +2,7 @@ import Head from "next/head";
 import Footer from "@components/Footer";
 import ProjectCarousel from "@components/ProjectCarousel";
 import NavigationBar from "@components/NavigationBar";
+import Separator from "@components/Separator";
 
 export default function Work() {
   return (
@@ -11,6 +12,7 @@ export default function Work() {
         <link rel="icon" href="/fish.svg" />
       </Head>
       <NavigationBar></NavigationBar>
+      <Separator />
       <main>
         <ProjectCarousel />
       </main>
