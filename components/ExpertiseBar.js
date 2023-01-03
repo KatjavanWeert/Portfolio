@@ -8,6 +8,7 @@ export default function ExpertiseBar({ expertises }) {
           width: "80%",
           display: "flex",
           flexDirection: "row",
+          flexWrap: "wrap",
           justifyContent: "space-evenly",
           padding: "1rem",
         }}
@@ -19,6 +20,7 @@ export default function ExpertiseBar({ expertises }) {
               style={{
                 textAlign: "center",
                 fontFamily: "Gloria Hallelujah, cursive",
+                margin: "0 0.4rem",
               }}
             >
               <img src={expertise.logo} width="60"></img>

@@ -71,6 +71,11 @@ export default function ProjectCC() {
         "/collectingcompassion/cc2.jpg",
         "/collectingcompassion/cc3.jpg",
       ]}
+      expertises={[
+        { title: "Shaping", logo: "/shaping.png" },
+        { title: "UX/UI", logo: "/ux.png" },
+        { title: "Graphics", logo: "/graphics.png" },
+      ]}
     />
   );
 }

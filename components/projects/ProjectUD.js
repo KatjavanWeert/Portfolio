@@ -68,6 +68,14 @@ export default function ProjectUD() {
         "/undefined/ud3.png",
         "/undefined/ud6.jpeg",
       ]}
+      expertises={[
+        { title: "Processing3", logo: "/programming.png" },
+        { title: "Circuits", logo: "/circuits.png" },
+        { title: "Video", logo: "/video.png" },
+        { title: "Statistics", logo: "/statistics.png" },
+        { title: "User Test", logo: "/usertest.png" },
+        { title: "Literature", logo: "/literature.png" },
+      ]}
     />
   );
 }

@@ -64,6 +64,13 @@ export default function ProjectBR() {
         "/ballroom/br2.jpg",
         "/ballroom/br6.jpg",
       ]}
+      expertises={[
+        { title: "User Test", logo: "/usertest.png" },
+        { title: "UX/UI", logo: "/ux.png" },
+        { title: "Literature", logo: "/literature.png" },
+        { title: "Graphics", logo: "/graphics.png" },
+        { title: "Gameplay", logo: "/gameplay.png" },
+      ]}
     />
   );
 }

@@ -49,6 +49,12 @@ export default function ProjectFE() {
         "/virtualfestivalexperiences/fe3.jpg",
         "/virtualfestivalexperiences/fe6.png",
       ]}
+      expertises={[
+        { title: "Video", logo: "/video.png" },
+        { title: "User Test", logo: "/usertest.png" },
+        { title: "Graphics", logo: "/graphics.png" },
+        { title: "Literature", logo: "/literature.png" },
+      ]}
     />
   );
 }

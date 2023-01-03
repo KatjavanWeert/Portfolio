@@ -58,6 +58,14 @@ export default function ProjectRP() {
         "/projectredpill/rp1.jpg",
         "/projectredpill/rp3.jpg",
       ]}
+      expertises={[
+        { title: "Processing3", logo: "/programming.png" },
+        { title: "Shaping", logo: "/shaping.png" },
+        { title: "Video", logo: "/video.png" },
+        { title: "Complexity", logo: "/complexity.png" },
+        { title: "Gameplay", logo: "/gameplay.png" },
+        { title: "Literature", logo: "/literature.png" },
+      ]}
     />
   );
 }

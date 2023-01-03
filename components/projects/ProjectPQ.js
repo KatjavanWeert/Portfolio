@@ -53,6 +53,14 @@ export default function ProjectPQ() {
         "/pubquizathome/pq3.jpeg",
         "",
       ]}
+      expertises={[
+        { title: "Web Development", logo: "/programming.png" },
+        { title: "UX/UI", logo: "/ux.png" },
+        { title: "Statistics", logo: "/statistics.png" },
+        { title: "User Test", logo: "/usertest.png" },
+        { title: "Gameplay", logo: "/gameplay.png" },
+        { title: "Literature", logo: "/literature.png" },
+      ]}
     />
   );
 }
