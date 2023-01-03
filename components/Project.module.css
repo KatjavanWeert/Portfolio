@@ -36,7 +36,7 @@
   overflow: clip;
 
   /* Vet om te doen: een doorkijkgat waar je de projecten door kan zien! */
-  padding: 5%;
+  padding: 0 5% 5% 5%;
   /* background-color: white; */
   /* border-radius: 8px; */
   /* box-shadow: rgba(50, 50, 93, 0.15) 0px 15px 30px -6px inset,

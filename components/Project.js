@@ -1,6 +1,7 @@
 import Gallery from "./Gallery";
 import styles from "./Project.module.css";
 import { AnimatePresence, motion } from "framer-motion";
+import ExpertiseBar from "./ExpertiseBar";
 
 export default function Project({
   title,
@@ -13,6 +14,7 @@ export default function Project({
   mainphoto,
   description2,
   images,
+  expertises,
 }) {
   return (
     <>
@@ -36,6 +38,7 @@ export default function Project({
               <div>{date}</div>
               <div>{timespan}</div>
             </div>
+            {expertises != null && <ExpertiseBar expertises={expertises} />}
             <div className={styles.projectContainer}>
               <div className="container">
                 <div className={styles.projectDescription}>{description}</div>

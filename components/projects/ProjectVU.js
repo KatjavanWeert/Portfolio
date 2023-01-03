@@ -73,6 +73,14 @@ export default function ProjectVU() {
         "/virtuallyunwrapped/vu3.png",
         "/virtuallyunwrapped/vu5.png",
       ]}
+      expertises={[
+        { title: "React", logo: "/programming.png" },
+        { title: "Shaping", logo: "/shaping.png" },
+        { title: "Video", logo: "/video.png" },
+        { title: "User Test", logo: "/usertest.png" },
+        { title: "UX/UI", logo: "/ux.png" },
+        { title: "Literature", logo: "/literature.png" },
+      ]}
     />
   );
 }
